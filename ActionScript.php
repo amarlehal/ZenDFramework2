@@ -9,6 +9,6 @@
   public function testAction()
   {
      $dbAdapter = $this->getServiceLocator()->get('Zend\Db\Adapter\Adapter');
-     $form = new NewscontentForm ($dbAdapter);
+     $form = new TestForm ($dbAdapter);
   
   }
